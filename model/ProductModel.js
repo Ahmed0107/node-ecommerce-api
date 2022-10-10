@@ -1,7 +1,11 @@
+// DB url from .env file
+require('dotenv').config() 
 //database configration
 
-// 1) import mongoose
+// 1) import mongoose and
 const mongoose = require("mongoose");
+
+
 
 // 2) Connect to databasa
 mongoose
